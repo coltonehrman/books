@@ -173,3 +173,5 @@ Common self closing tags are `<link />`.
 Not all tags can be self-closing and will result in issues with your HTML code.
 
 For example, you cannot self-close `<html>`, `<head>`, `<body>`, `<h1>`, and many others.
+
+## [Chapter 2](/html/chapters/2/README.md)
