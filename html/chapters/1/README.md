@@ -2,6 +2,8 @@
 
 Welcome to the first step of your web development journey! This chapter is all about laying a solid foundation. We'll demystify the jargon and introduce the essential concepts of HTML and web development. Whether you're an absolute beginner or brushing up on basics, this chapter will align our understanding and prepare you for the exciting journey ahead.
 
+If you come across a word that you don't recognize or understand, please check the **[Dictionary](./dictionary.md)** for help.
+
 ## What is Web Development?
 
 Web development is the art and science of building websites and web applications. It encompasses everything from creating simple static web pages to complex, interactive web applications. There are three main layers to web development:
@@ -117,3 +119,57 @@ This tag is special and will indicate "hints" & **meta** data/information to the
 Every HTML page can include 1 of these tags, the `<body>` will be the second child tag _(nested 1 level below)_ which follows the `<head>` tag, of the `<html>` tag.
 
 This tag is where all of your web page content will live. And is where we put the `<h1>` tag in our exercise, which displayed the text **Hello World!**.
+
+## HTML Tags
+
+Refers to a type of HTML code and is surrounded with angle brackets (ex: `<` `html` `>`).
+
+_Almost_ all tags have a start and end (aka closing) associated with them to indicate where the tag starts and ends to the Web Browser (ie: HTML parser).
+
+Common tags are `<html>`, `<head>`, `<body>`, and `<h1>`.
+
+### Closing Tag
+
+Refers to a the end of a tag and is always written with a slash `/`, like this `</html>`.
+
+A tag that has a closing tag with it will typically have child tags or content nested inside, like so.
+
+```html
+<html>
+    <body>
+        <h1>Hello World!</h1>
+    </head>
+</html>
+```
+
+Every start tag wraps another tag and each tag has an associated closing tag to denote the end of that tag and it's contents.
+
+#### Caution:
+
+Make sure that all closing tags are in order of when they are opened. In other words, you would not close a tag that has child tags inside it that are not closed yet.
+
+For example, this is incorrect:
+
+```html
+<h1><b>Hello!</h1> World</b>
+```
+
+Notice how the `<h1>` tag was closed BEFORE the `<b>` tag, which is a child of the `<h1>` tag. This is incorrect order of tags and incorrect HTML.
+
+The `/` must come BEFORE the name of the tag and NOT after. _This is an incorrect closing tag `<html/>`_
+
+### Self-Closing Tags
+
+Refers to a tag that is self-closing, and does not have a start & end tag, but instead is a standalone tag that starts and ends in one reference.
+
+A self-closing tag will have the `/` at the end of it before the `>`, like this `<link />`.
+
+A self-closing tag is used to easily start & end a tag that has no content inside and does not have any child tags nested in it.
+
+Common self closing tags are `<link />`.
+
+#### Caution:
+
+Not all tags can be self-closing and will result in issues with your HTML code.
+
+For example, you cannot self-close `<html>`, `<head>`, `<body>`, `<h1>`, and many others.
