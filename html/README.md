@@ -63,4 +63,4 @@ By the end of this book, you'll be able to:
 - Get a grasp on how HTML works with CSS and JavaScript for more complex websites.
 - Develop the skills to continue learning more advanced web development concepts.
 
-<a href="/html/chapter-1.md">Chapter 1</a>
+## [Chapter 1](/html/chapters/1/README.md)
