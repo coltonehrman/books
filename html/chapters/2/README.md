@@ -88,7 +88,7 @@ After adding the Folder, the pop-up window will disappear and you should see the
 
 #### Step 7: Add a new File to the Folder from VS Code
 
-Right click on **HTML-Project** to show a pop-up menu, then click **New File...**
+Right-click on **HTML-Project** to show a pop-up menu, then click **New File...**
 
 ![Step 7](./step-7.png)
 
@@ -130,12 +130,12 @@ Go to **Chrome** and paste the copied file path into Chrome's URL bar on the top
 
 Click Enter to load the HTML file into Chrome.
 
-You should see a blank white screen showing, and Chrome may also display the **File** icon to the right of the URL bar, indicated it is displaying from a file instead of from the internet. _This is how you develop with HTML locally without having to go through the internet._
+You should see a blank white screen showing, and Chrome may also display the **File** icon to the left of the URL bar, indicated it is displaying from a file instead of from the internet. _This is how you develop with HTML locally without having to go through the internet._
 
 ![Step 12](./step-12.png)
 
 #### Step 4: Re-loading Chrome when the file changes
 
-You can click the **Reload** icon to the right of the URL bar anytime the you edit and save the file to display the latest changes.
+You can click the **Reload** icon to the left of the URL bar anytime the you edit and save the file to display the latest changes.
 
 ![Step 13](./step-13.png)
