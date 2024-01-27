@@ -51,7 +51,7 @@ Now, you may be asking, what everything means or does inside the code we just wr
 
 #### Exercise Problems?
 
-If you experience any issues with the excerise, please ensure the following conditions are met:
+If you experience any issues with the exercise, please ensure the following conditions are met:
 
 1. You copy/pasted the correct code into the file.
 1. You saved the file with the correct extension `.html`.
@@ -68,6 +68,52 @@ At its core, HTML is the language that web browsers understand to display web pa
 - **Attributes:** Tags can have attributes that provide additional information about an element, such as `<img src="image.jpg" alt="description">`, where src and alt are attributes of the img tag.
 - **Structure:** An HTML document has a defined structure, including a doctype declaration, and `<html>`, `<head>`, and `<body>` sections.
 
-## The Evolution of HTML
+In our previous [exercise](#exercise) we created a simple html structure using a **doctype declaration**, the `<html>` tag, the `<body>` tag, and finally the `<h1>` tag.
 
-HTML has evolved significantly since its inception. The latest version, HTML5, introduced new elements, attributes, and behaviors with a greater emphasis on multimedia, graphical content, and improved accessibility for users and compatibility across devices.
+### Doctype Declaration
+
+Looks like this: `<!DOCTYPE html>`
+
+This is always the first line of the code and is special as it includes an exclamation `!` and no self-closing symbol or closing tag. _We will learn what self-closing & closing tags are in the upcoming content._
+
+You can safely assume every single HTML file you write will include this in it.
+
+_I am not going to go too much into this tag and why/what it means, but feel free to research more on it._
+
+### `<html>`
+
+Every HTML page will include 1 of these tags, the `<html>` will be the **root** tag _(root meaning the top-level or outer most)_ and wrap around both the `<head>` and `<body>` tags.
+_We did not use a `<head>` tag in our exercise._
+
+Notice how we **close** this tag at the end by adding what is called a **closing tag** `</html>`.
+
+When working with HTML, there is a hierarchy order & structure that you must follow. This is part of the _grammar_ of the language.
+
+The base layout of HTML will always follow this structure. _Excluding the Doctype Declaration_
+
+```html
+<html>
+  <head></head>
+  <body></body>
+</html>
+```
+
+Creating a hierarchy structure like so:
+
+```
+├─ html
+  ├─ head
+  │─ body
+```
+
+### `<head>`
+
+Every HTML page can include 1 of these tags, the `<head>` will be the first child tag _(nested 1 level below)_ of the `<html>` tag.
+
+This tag is special and will indicate "hints" & **meta** data/information to the browser that are related to the HTML page.
+
+### `<body>`
+
+Every HTML page can include 1 of these tags, the `<body>` will be the second child tag _(nested 1 level below)_ which follows the `<head>` tag, of the `<html>` tag.
+
+This tag is where all of your web page content will live. And is where we put the `<h1>` tag in our exercise, which displayed the text **Hello World!**.
