@@ -49,7 +49,7 @@ This book is crafted for anyone seeking to understand HTML, regardless of their 
 
 - **Chapter 1: Core Concepts & Terminology:** This chapter will take care of aligning the language used throughout the book and within the Web industry. If you are fresh to this domain of knowledge, you will find this section imperative to wrapping your head around what the heck we are talking about.
 - **Chapter 2: Setting Up Your Environment:** We dive right into getting start with HTML. Before you start coding, you'll need the right tools. We'll cover what you need and how to set them up. _More than likely, you already have all the tools you need at hand._
-- **Chapter 3 to 7:** Each chapter introduces new HTML elements and concepts, building your skills step by step.
+- **Chapter 3 to 7:** Starting with Chapter 3, we will take on building a Personal Portfolio website and slowly explore concepts as they appear.
 - **Exercises and Examples:** At the end of each chapter, you'll find exercises and examples to reinforce what you've learned.
 
 Throughout the book, we adopt a hands-on approach, encouraging you to code along and immediately apply what you learn.

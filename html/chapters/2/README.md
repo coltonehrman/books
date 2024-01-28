@@ -139,3 +139,7 @@ You should see a blank white screen showing, and Chrome may also display the **F
 You can click the **Reload** icon to the left of the URL bar anytime the you edit and save the file to display the latest changes.
 
 ![Step 13](./step-13.png)
+
+## [Back to Chapter 1](/html/chapters/1/README.md)
+
+## [Chapter 3](/html/chapters/3/README.md)
